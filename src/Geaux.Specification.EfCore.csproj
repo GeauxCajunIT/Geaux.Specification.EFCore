@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0; net9.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+
+		<AssemblyName>Geaux.Specification.EntityFrameworkCore</AssemblyName>
+		<PackageId>Geaux.Specification.EntityFrameworkCore</PackageId>
+		<Title>Geaux.Specification.EntityFrameworkCore</Title>
+		<Version>1.2.0</Version>
+		<Authors>Brent Lee Rigsby</Authors>
+		<Company>GeauxCajunIT</Company>
+		<Description>Entity Framework Core integration for Geaux.Specification. Provides evaluators, DbSet extensions, and repository implementations.</Description>
+		<PackageTags>specification;efcore;repository;ddd;clean-architecture</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/GeauxCajunIT/Geaux.Specification.EntityFrameworkCore.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+
+		<PackageReleaseNotes>
+			* Initial release with EF Core support
+			* Added SpecificationEvaluator and DbSet extensions
+		</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.11" />
+		<PackageReference Include="Geaux.Specification" Version="1.2.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="9.0.11" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="8.0.0" />
+	</ItemGroup>
+
+</Project>

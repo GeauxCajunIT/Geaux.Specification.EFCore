@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Geaux.Specification.EfCore.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="Tests/Geaux.Specification.EFCore.Tests/Geaux.Specification.EFCore.Tests.csproj" Id="d5c760ce-30a5-4f26-ad27-c8c7b10ec992" />
+  </Folder>
+</Solution>
